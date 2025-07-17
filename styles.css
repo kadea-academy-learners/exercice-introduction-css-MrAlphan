@@ -1,0 +1,43 @@
+body{
+   background: #eeeeee; 
+   align-items: center;
+   text-align: center;
+   padding: 2%;
+   border:20px solid white ;
+   
+}
+.color_section{
+  background: #ffffff
+}
+/* tous les titres Centrés */
+h1, h2 {
+  text-align: inherit;
+}
+.image_section{
+  padding: 5px;
+   line-height: 38px;
+  background-color: #ffffff;  /* espace à l'intérieur du bloc */
+}
+
+
+/* img.image_section*/
+ul {
+  display: flex;
+  text-align: start;
+  line-height: 1.8;
+  margin-left: 36%;
+  flex-direction: column;
+  list-style-position: outside; /* pour garder les puces visibles */
+  padding: 0% 35% 0% 0%;
+}
+/*  chaque item Centré de la liste */
+ul.medium_content li {
+  line-height: 1.8px;
+  margin-left: 36%;
+  text-align: start ;
+}
+#illustration{
+  text-align: center;
+  line-height: 38px;
+  padding: 5px;
+}
